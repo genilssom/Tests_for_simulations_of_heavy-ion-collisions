@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#Clean environment to be run
-
 #MUSIC
 mkdir -p ../music_run
 ln -s ../codes/music_code/EOS  ../music_run/EOS
