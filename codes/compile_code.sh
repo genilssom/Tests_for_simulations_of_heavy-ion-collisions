@@ -4,15 +4,21 @@
 
 #compile MUSIC
 
-cd music_code
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
+(
+  cd music_code
+  rm -rf build
+  mkdir build && cd build
+  cmake .. -DCMAKE_BUILD_TYPE=Release
+  make -j$(nproc)
+)
 
 #compile iSS
 
-cd iss_code
-mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
+(
+  cd iss_code
+  rm -rf build
+  mkdir build && cd build
+  cmake .. -DCMAKE_BUILD_TYPE=Release
+  make -j$(nproc)
+)
 
