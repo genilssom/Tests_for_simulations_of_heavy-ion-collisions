@@ -14,8 +14,6 @@ Using it is very simple; just clone and compile the repository in the `codes` di
 After that, just run the script:
 
 ```bash
-cd generate_folder
-    ./generate_folder.sh
 ./run_music+iSS.sh
 ```
 You can also add your own parameters to the `input` as long as they are named exactly as they are here in the repository.
