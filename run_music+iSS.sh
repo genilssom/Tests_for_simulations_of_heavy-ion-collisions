@@ -6,6 +6,14 @@ rm music_run/*.dat
 rm iss_run/results/*.dat
 rm iss_run/*.dat
 
+#run generate folder
+
+(
+cd generate_folder
+bash generate_folder.sh
+)
+
+
 #run MUSIC
 
 cp codes/music_code/build/src/MUSIChydro music_run/
