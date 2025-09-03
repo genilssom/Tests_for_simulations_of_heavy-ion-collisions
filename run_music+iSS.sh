@@ -2,9 +2,8 @@
 
 #Clean up all files (if any)
 
-rm music_run/*.dat
-rm iss_run/results/*.dat
-rm iss_run/*.dat
+rm -rf music_run
+rm -rf iss_run
 
 #run generate folder
 
