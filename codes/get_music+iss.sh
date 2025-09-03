@@ -8,7 +8,7 @@ rm -rf music_code/.git
 
 # download iSS
 rm -rf iss_code
-git clone https://github.com/chunshen1987/iSS.git -b newRTA iss_code
+git clone https://github.com/chunshen1987/iSS.git -b 4DEoS iss_code
 rm -rf  iss_code/.git
 
 
