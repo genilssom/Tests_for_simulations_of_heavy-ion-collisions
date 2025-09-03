@@ -22,3 +22,12 @@
   make -j$(nproc)
 )
 
+#compile SMASH
+
+(
+cd smash_code
+mkdir build && cd build
+cmake -DPythia_CONFIG_EXECUTABLE="$HOME/pythia8315/bin/pythia8-config" ..
+make -j"$(nproc)" smash
+)
+

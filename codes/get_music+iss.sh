@@ -11,4 +11,11 @@ rm -rf iss_code
 git clone https://github.com/chunshen1987/iSS.git -b 4DEoS iss_code
 rm -rf  iss_code/.git
 
+#download SMASH
+
+rm -rf smash_code
+git clone https://github.com/smash-transport/smash.git -b main smash_code
+rm -rf smash_code/.git
+
+
 
