@@ -10,3 +10,4 @@ mkdir -p ../iss_run/results
 ln -s ../codes/iss_code/iSS_tables  ../iss_run/iSS_tables
 
 mkdir -p ../smash_run
+mkdir -p ../smash_run/list
