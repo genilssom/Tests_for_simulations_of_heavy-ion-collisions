@@ -1,10 +1,10 @@
-hydro_mode = 2           # mode for reading in freeze out information
+hydro_mode = 1           # mode for reading in freeze out information
                          # 0: reads outputs from VISH2+1
                          # 1: reads outputs from MUSIC assuming
                          #    boost-invariant
                          # 2: reads outputs from MUSIC full (3+1)-d
 
-afterburner_type = 0     # 0: PDG_Decay
+afterburner_type = 2     # 0: PDG_Decay
                          # 1: UrQMD
                          # 2: SMASH
 
@@ -33,9 +33,10 @@ quantum_statistics = 1   # include quantum statistics or not (1: yes, 0: no)
 
 output_samples_into_files = 0  # output particle samples into individual files
                                # for individual particle species
-store_samples_in_memory = 1  # flag to store particle samples in memory
+store_samples_in_memory = 0  # flag to store particle samples in memory
 use_OSCAR_format = 1         # output results in OSCAR format
-use_gzip_format = 1          # output results in gzip format (only works with
+use_OSCAR2013 = 1            # output results in OSCAR 2013 format (need use_OSCAR_format == 1)
+use_gzip_format = 0          # output results in gzip format (only works with
                              # store_samples_in_memory = 1)
 use_binary_format = 0        # output results in binary format
 perform_decays = 0           # flag to perform resonance decay
