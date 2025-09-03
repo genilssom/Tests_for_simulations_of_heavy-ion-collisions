@@ -58,5 +58,5 @@ cp codes/smash_code/build/smash smash_run/
 
 (
   cd smash_run
-  ./smash -i config.yaml
+  ./smash -i list/config.yaml
 )
