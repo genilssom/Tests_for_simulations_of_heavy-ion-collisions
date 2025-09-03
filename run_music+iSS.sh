@@ -4,6 +4,7 @@
 
 rm -rf music_run
 rm -rf iss_run
+rm -rf smash_run
 
 #run generate folder
 
@@ -47,5 +48,15 @@ cp codes/iss_code/build/src/iSS.e iss_run/
 (
   cd iss_run
   ./iSS.e ../input/iSS_parameters_SMASH.dat
+  cp OSCAR.DAT ../smash_run/OSCAR.DAT0
 )
 
+#Run SMASH
+
+cp input/config.yaml smash_run/
+cp codes/smash_code/build/smash smash_run/
+
+(
+  cd smash_run
+  ./smash -i config.yaml
+)
