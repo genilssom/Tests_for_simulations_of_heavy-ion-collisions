@@ -48,7 +48,7 @@ cp codes/iss_code/build/src/iSS.e iss_run/
 (
   cd iss_run
   ./iSS.e ../input/iSS_parameters_SMASH.dat
-  cp OSCAR.DAT ../smash_run/OSCAR.DAT0
+  cp OSCAR.DAT ../smash_run/list/OSCAR.DAT0
 )
 
 #Run SMASH
