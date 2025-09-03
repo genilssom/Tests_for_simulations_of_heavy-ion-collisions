@@ -1,0 +1,23 @@
+Logging:
+    default: INFO
+
+General:
+  Modus:         List
+  Time_Step_Mode: None
+  Delta_Time:    0.1
+  End_Time:      50.0
+  Randomseed:    -1     # <- OBRIGATÓRIO
+  Nevents:       10
+
+
+Output:
+  Output_Interval: 10.0
+  Particles:
+    Format: ["Oscar2013"]
+
+
+Modi:
+  List:
+    File_Directory: ""
+    File_Prefix: "OSCAR.DAT"
+    Shift_Id: 0
