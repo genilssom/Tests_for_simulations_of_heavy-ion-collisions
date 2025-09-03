@@ -29,7 +29,7 @@ cp input/music_input iss_run/results/
 #Run iSS
 
 cp codes/iss_code/build/src/iSS.e iss_run/
-cp input/iSS_parameters.dat iss_run/
+#cp input/iSS_parameters.dat iss_run/
 
 (
   cd codes/iss_code/iSS_tables/deltaf_tables/urqmd
