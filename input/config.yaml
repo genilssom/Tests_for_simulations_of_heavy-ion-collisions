@@ -18,6 +18,6 @@ Output:
 
 Modi:
   List:
-    File_Directory: ""
+    File_Directory: "list"
     File_Prefix: "OSCAR.DAT"
     Shift_Id: 0
