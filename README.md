@@ -1,7 +1,7 @@
 # Introduction
 
 Here is a script to improve runtime when testing some steps in heavy-ion collision simulations. 
-The steps are MUSIC and iSS. MUSIC runs from an initial IPGlasma2D condition.
+The steps are MUSIC, iSS and SMASH. MUSIC runs from an initial IPGlasma2D condition.
 
 # Usage
 
