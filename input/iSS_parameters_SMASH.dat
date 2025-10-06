@@ -17,13 +17,13 @@ include_deltaf_shear = 1      # include delta f contribution from shear
 include_deltaf_bulk = 1       # include delta f contribution from bulk
 include_deltaf_diffusion = 0  # include delta f contribution from diffusion
 
-bulk_deltaf_kind = 20    # 0 : 14-moment approximation (s95p-v0-PCE)
+bulk_deltaf_kind = 1    # 0 : 14-moment approximation (s95p-v0-PCE)
                          # 1 : relaxation time approximation [default]
                          # 11: OSU 14-moment
                          # 20: WSU 22-moment (NEoS-BQS) shear and bulk
                          # 21: WSU Chapman-Enskog (NEoS-BQS) shear and bulk
 
-restrict_deltaf = 1      # flag to apply restriction on the size of delta f
+restrict_deltaf = 0      # flag to apply restriction on the size of delta f
 deltaf_max_ratio = 1.0   # the maximum allowed size of delta f w.r.t f0
 
 quantum_statistics = 1   # include quantum statistics or not (1: yes, 0: no)
@@ -142,7 +142,7 @@ use_historic_flow_output_format = 0    # 1/0: The "historical flow format"
 
 calculate_vn_to_order = 9              # v_n's are calculated up to this order
 
-sample_upto_desired_particle_number = 0  # flag to run sampling until desired
+sample_upto_desired_particle_number = 1  # flag to run sampling until desired
                                          # particle numbers is reached
 number_of_particles_needed = 100000      # number of hadrons to sample
 number_of_repeated_sampling = 10       # How many times should the sampling be
