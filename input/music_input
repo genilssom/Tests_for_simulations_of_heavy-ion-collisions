@@ -34,8 +34,8 @@ Initial_Distribution_input_filename ../data/e.dat
                                # (for Initial_profile == 8)
 s_factor 1.000                 # normalization factor read in
                                # initial data file
-Eta_plateau_size 20.           # size of the plateau in eta_s
-Eta_fall_off 0.7               # the scale of the fall off of the
+Eta_plateau_size 5.4           # size of the plateau in eta_s
+Eta_fall_off 0.3               # the scale of the fall off of the
                                # plateau in eta_s direction
 #
 #######################################
