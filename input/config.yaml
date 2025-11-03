@@ -5,15 +5,26 @@ General:
   Modus:         List
   Time_Step_Mode: None
   Delta_Time:    0.1
-  End_Time:      50.0
-  Randomseed:    -1     # <- OBRIGATÓRIO
+  End_Time:      100.0
+  Randomseed:    -1  
   Nevents:       10
 
 
 Output:
   Output_Interval: 10.0
   Particles:
-    Format: ["Oscar2013"]
+    Format: ["Oscar2013"]  #Oscar2013, Binary, Oscar2013_bin, ASCII
+    Extended: True
+    #Only_Final: Yes
+    #Quantities: [ "t","x","y","z",
+    #"mass","p0","px","py","pz",
+    #"pdg","ID","charge",
+    #"ncoll","form_time","xsecfac",
+    #"proc_id_origin","proc_type_origin","time_last_coll",
+    #"pdg_mother1","pdg_mother2",
+    #"baryon_number","strangeness"
+    # ]    # only for Binary option.
+
 
 
 Modi:
