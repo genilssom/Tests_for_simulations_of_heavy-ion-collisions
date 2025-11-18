@@ -9,5 +9,6 @@ ln -s ../codes/music_code/tables  ../music_run/tables
 mkdir -p ../iss_run/results
 ln -s ../codes/iss_code/iSS_tables  ../iss_run/iSS_tables
 
+#SMASH
 mkdir -p ../smash_run
 mkdir -p ../smash_run/list
