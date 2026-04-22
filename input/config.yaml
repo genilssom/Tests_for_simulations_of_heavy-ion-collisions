@@ -5,13 +5,8 @@ General:
   Modus:         List
   Time_Step_Mode: None
   Delta_Time:    0.1
-<<<<<<< HEAD
-  End_Time:      100.0
-  Randomseed:    -1  
-=======
   End_Time:      50.0
-  Randomseed:    -1   
->>>>>>> 41cbc11a34955c30e056f47084f273eb1b5253d6
+  Randomseed:    -1
   Nevents:       10
 
 
