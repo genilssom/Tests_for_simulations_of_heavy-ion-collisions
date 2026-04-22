@@ -54,6 +54,8 @@ cp codes/iss_code/build/src/iSS.e iss_run/
 
 #Run SMASH
 
+export PYTHIA8DATA="${HOME}/pythia8315/share/Pythia8/xmldoc"
+
 cp input/config.yaml smash_run/list/
 cp codes/smash_code/build/smash smash_run/
 
