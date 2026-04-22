@@ -28,10 +28,9 @@
 cd smash_code
 rm -fr build
 mkdir -p build && cd build
-CC=${CCFlag} CXX=${CXXFlag} cmake \
+CC=gcc-12 CXX=g++-12 cmake \
         -DPythia_CONFIG_EXECUTABLE="${HOME}/pythia8315/bin/pythia8-config" \
         -DTRY_USE_HEPMC=OFF \
-        -DCMAKE_CXX_FLAGS="-O1" \
         ..
     make -j${number_of_cores_to_compile} smash
 )
