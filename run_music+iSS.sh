@@ -34,15 +34,9 @@ cp codes/iss_code/build/src/iSS.e iss_run/
 #cp input/iSS_parameters.dat iss_run/
 
 (
-  cd codes/iss_code/iSS_tables/deltaf_tables/urqmd
-  bash download_NEoS4D_deltafCoeffs.sh
+  cd codes/iss_code/iSS_tables/deltaf_tables
+  bash download_newRTA.sh
 )
-
-# Uncomment if you use iSS newRTA branch
-#(
-#  cd codes/iss_code/iSS_tables/deltaf_tables
-#  bash download_newRTA.sh
-#)
 
 (
   cd iss_run

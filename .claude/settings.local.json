@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -n '44,47p' /tmp/iss_newrta/src/FSSW.h)",
+      "Bash(sed -n '160,166p' /tmp/iss_newrta/src/FSSW.h)",
+      "Bash(sed -n '69,73p' /tmp/iss_newrta/src/FSSW.cpp)",
+      "Bash(sed -n '362,372p' /tmp/iss_newrta/src/FSSW.cpp)",
+      "Bash(sed -n '498,506p' /tmp/iss_newrta/src/FSSW.cpp)"
+    ]
+  }
+}
