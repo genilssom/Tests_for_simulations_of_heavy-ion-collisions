@@ -40,7 +40,6 @@ else
     echo "Pythia8 already installed at ${PYTHIA_INSTALL_DIR}, skipping."
 fi
 
-
-(cd codes/music_code/EOS; bash download_hotQCD.sh SMASH_binary)
+(cd music_code/EOS; bash download_hotQCD.sh SMASH_binary)
 
 
