@@ -9,8 +9,7 @@ rm -rf music_code/.git
 
 # download iSS
 rm -rf iss_code
-git clone https://github.com/chunshen1987/iSS.git -b XSCAPE iss_code
-(cd iss_code; git checkout d242555306930f813881caca500f0e6f82036b2e)
+git clone https://github.com/chunshen1987/iSS.git -b newRTA iss_code
 rm -rf  iss_code/.git
 
 #download SMASH
