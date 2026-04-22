@@ -26,8 +26,12 @@
 
 (
 cd smash_code
-mkdir build && cd build
-cmake -DPythia_CONFIG_EXECUTABLE="$HOME/pythia8315/bin/pythia8-config" ..
-make -j"$(nproc)" smash
+rm -fr build
+mkdir -p build && cd build
+CC=${CCFlag} CXX=${CXXFlag} cmake \
+        -DPythia_CONFIG_EXECUTABLE="${HOME}/pythia8315/bin/pythia8-config" \
+        -DTRY_USE_HEPMC=OFF \
+        ..
+    make -j${number_of_cores_to_compile} smash
 )
 
