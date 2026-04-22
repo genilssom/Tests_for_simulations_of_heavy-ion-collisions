@@ -35,3 +35,4 @@ CC=${CCFlag} CXX=${CXXFlag} cmake \
     make -j${number_of_cores_to_compile} smash
 )
 
+

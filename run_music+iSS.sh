@@ -18,7 +18,7 @@ bash generate_folder.sh
 
 cp codes/music_code/build/src/MUSIChydro music_run/
 
-(cd codes/music_code/EOS; bash download_hotQCD.sh SMASH_binary)
+
 
 (
   cd music_run
