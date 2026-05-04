@@ -8,8 +8,8 @@ rm -rf music_code/.git
 
 # download iSS (newRTA branch + OSCAR2013 patch)
 rm -rf iss_code
-git clone https://github.com/genilssom/iSS.git -b newRTA iss_code
-rm -rf iss_code/.git
+git clone --depth=3 https://github.com/luizafperin/iSS -b XSCAPE iSS_code
+(cd iSS_code; git checkout 81ed0b78bd6e0012c19cd13348f3d6aa02f4137e)
 
 #download SMASH
 
