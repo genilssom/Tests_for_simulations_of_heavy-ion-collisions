@@ -3,7 +3,7 @@
 
 # download MUSIC
 rm -rf music_code
-git clone --depth=3 https://github.com/luizafperin/MUSIC -b main MUSIC_code
+git clone --depth=3 https://github.com/luizafperin/MUSIC -b main music_code
 (cd MUSIC_code; git checkout e41c72a68b6cb13680d4a0421b06653f978b572a)
 rm -rf music_code/.git
 
