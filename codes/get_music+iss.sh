@@ -3,9 +3,12 @@
 
 # download MUSIC
 rm -rf music_code
-git clone https://github.com/MUSIC-fluid/MUSIC.git -b XSCAPE music_code
-(cd music_code; git checkout cfcc26455450588961e81139045dc0eef387437c)
+git clone --depth=3 https://github.com/luizafperin/MUSIC -b main music_code
 rm -rf music_code/.git
+#rm -rf music_code
+#git clone https://github.com/MUSIC-fluid/MUSIC.git -b XSCAPE music_code
+#(cd music_code; git checkout cfcc26455450588961e81139045dc0eef387437c)
+#rm -rf music_code/.git
 
 # download iSS (newRTA branch + OSCAR2013 patch)
 rm -rf iss_code
